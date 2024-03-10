@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <form>
+      <form action='http://localhost:3000/' method='post'>
         <label >
           Url:
           <input type="text" name="Url" />
